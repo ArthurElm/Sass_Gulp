@@ -1,0 +1,187 @@
+//------HEADER
+
+header{
+
+    nav{
+
+        ul{
+            display: flex;
+            margin-left: 45%;
+            width: 352px;
+            justify-content: space-around;
+            margin-top: 2.5%;
+
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+//-----FOOTER
+footer{
+    
+    .bottom{
+
+        .links{
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            ul{
+                height: 20vh;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+
+        .hours{
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            ul{
+                height: 20vh;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                li{
+                    
+                    a{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+
+        .contact{
+            
+            ul{
+                height: 15vh;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                li:last-child{
+                    margin-top: 3vh;
+                }
+
+                li{
+                    a{
+                        img{
+                            width: $footerContact;
+                            margin-right: 5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+
+    //------HEADER
+
+    header{
+
+        nav{
+
+            ul{
+                margin-left: 5%;
+                
+                li{
+                    a{
+                        color: $purple;
+                    }
+                }
+            }
+        }
+    }
+
+
+    //------FOOTER
+    footer{
+    
+        .bottom{
+    
+            .links{
+                height: 30vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+    
+                ul{
+                    height: 20vh;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+            }
+    
+            .hours{
+                height: 30vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+    
+                ul{
+                    height: 20vh;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+    
+                    li{
+                        
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+            }
+    
+            .contact{
+                height: 25vh;
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+    
+                ul{
+                    height: 15vh;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+    
+                    li:last-child{
+                        margin-top: 3vh;
+                    }
+    
+                    li{
+                        a{
+                            img{
+                                width: $footerContact;
+                                margin-right: 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

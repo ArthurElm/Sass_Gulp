@@ -1,0 +1,97 @@
+@media (max-width: 500px){
+    
+    //------HEADER
+
+    header{       
+        background-image: url(../img/phone_background4.png);
+
+        .media{
+
+            .socialPicto{
+                display: none;
+            }
+
+            .textLeft{
+
+                margin: 5vh 0 0 -15% ;
+            }
+        }
+    }
+
+    //----MAIN
+    main{
+        //------WHO WE ARE
+        .whoWeAre{
+            background-size: 40vh;
+            margin-top: 10vh;
+        }
+        //------SERVICES
+        .services{
+            height: 400vh;
+            margin-top: 30vh;
+    
+            .blocks{
+                margin-left: 5%;
+                padding-left: 5%;
+    
+                .block{
+                    width: 90%;
+                    align-content: center;
+                }
+            }
+        }
+
+
+        //------PRICING
+        .pricing{
+            height: 220vh;
+            justify-content: space-around;
+    
+            .packages{
+                
+                .package{
+                    width: 90%;
+                    height: 55vh;
+    
+                }
+            }
+        }        
+    }
+
+
+    //-----FOOTER
+    footer{
+
+        .newsletter{
+    
+            .send{
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                height: 20vh;
+
+                input{
+                    width: 100%;
+                }
+            }
+        }
+    
+        .bottom{
+
+            .logo{
+                width: 80%;
+                margin: 0 0 5vh 10%;
+            }
+    
+            .links,
+            .hours,
+            .contact{
+                width: 70%;
+                height: 30vh;
+                margin: 0 0 5vh 15%;
+                text-align: center;
+            }
+            
+        }
+    }
+}

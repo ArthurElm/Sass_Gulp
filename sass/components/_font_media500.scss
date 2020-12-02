@@ -1,0 +1,198 @@
+@media (max-width: 500px){
+
+    //-------All
+
+    section{
+        p:first-child{
+            font-family: $lobster;
+            font-weight: $regular;
+            color: $purple;
+        }
+    }
+
+    h3{
+        font-family: $poppins;
+        font-weight: $semiBold;
+        font-size: $RESh3;
+        color: $grey;
+    }
+
+    //-------HEADER
+
+    header{
+        background-size: 40vh;
+        
+        .media{
+            .textLeft{
+                height: 50vh;
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+
+                h3{
+                    font-size: $RESh3;
+                }
+                h1{
+                    font-size: $RESh1;
+                }
+                p{
+                    width: 341px;
+                }
+                p:nth-child(3n){
+                    font-size: $REStext;
+                }
+            }
+        }
+    }
+
+    //------MAIN
+
+    main{
+
+        //--------WHO WE ARE
+        .whoWeAre{
+            text-align: center;
+
+            .articleWho{
+
+                h3{
+                    font-size: $RESh3;
+                }
+            }
+        }
+
+        //--------SERVICES
+        .services{
+            text-align: center;
+
+            p{
+                font-size: $RESh6;
+                margin-left: 0;
+            }
+
+            h3{
+                margin-left: 0;
+            }
+
+            .blocks{
+
+                .block{
+                    p:nth-child(2n){
+                        font-size: $REStitre;
+                        margin: 0 2vh 0 2vh;
+                    }
+
+                    p:nth-child(3n){
+                        font-size: $RESsous-titre;
+                        margin: 0 2vh 0 2vh;
+                    }
+                }
+            }
+        }
+
+        //--------PRICING
+        .pricing{
+            
+            .packages{
+                
+                .package{
+                    
+                    h5{
+                        font-size: $RESh5;
+                        margin-top: 10%
+                    }
+
+                    p:nth-child(2n){
+                        font-size: $REStext;
+                        text-align: center;
+                        margin: 0 5% 0 5%;
+                    }
+                    
+                    p:nth-child(3n){
+                        font-size: $RESprix;
+                        margin: -5vh;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    //-------FOOTER
+
+    footer{
+
+        .newsletter{
+            
+            p:nth-child(2){
+                font-size: $RESspecial;
+                text-align: center;
+            }
+
+            .send{
+                input{
+                    font-size: $RESsmallFontSize;
+                }
+            }
+        }
+
+        .bottom{
+
+            .logo{
+
+                p:first-child{
+                    font-family: $poppins;
+                    font-size: $RESh3;
+                    font-weight: $extraBold;
+                    color: $white;
+                }
+
+                p:nth-child(2n){
+                    font-family: $poppins;
+                    font-size: $RESstay;
+                    font-weight: $medium;
+                    color: $white;
+                }
+            }
+
+            .links,
+            .hours,
+            .contact{
+
+                p{
+                    font-family: $poppins;
+                    font-size: $RESmini-titre;
+                    font-weight: $medium;
+                    color: $white;
+                }
+                ul{
+                    li{
+                        a{
+                            font-family: $poppins;
+                            font-size: $REStext;
+                            font-weight: $regular;
+                            color: $white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .hours{
+                ul{
+                    li{
+                        a{
+                            p{
+                                font-family: $poppins;
+                                font-size: $REStext;
+                                font-weight: $regular;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

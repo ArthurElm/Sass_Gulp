@@ -1,0 +1,74 @@
+//Typo 
+//----Size
+$h1         : 74px;
+$h3         : 50px;
+$h4         : 40px;
+$special    : 32px;
+$stay       : 31px;
+$prix       : 30px;
+$h5         : 28px;
+$bigtitre   : 27px;
+$h6         : 25px;
+$mini-titre : 20px;
+$titre      : 18px;
+$text       : 16px;
+$sous-titre : 15px;
+$smallFontSize: 12px;
+
+//----Responsive Size
+$RESh1         : 60px;
+$RESh3         : 45px;
+$RESh4         : 40px;
+$RESspecial    : 32px;
+$RESstay       : 31px;
+$RESprix       : 30px;
+$RESh5         : 28px;
+$RESbigtitre   : 27px;
+$RESh6         : 22px;
+$RESmini-titre : 20px;
+$REStitre      : 18px;
+$REStext       : 16px;
+$RESsous-titre : 14px;
+$RESsmallFontSize: 12px;
+
+//----Family
+$dosis      : "Dosis", sans-serif;
+$poppins    : "Poppins", sans-serif;
+$lobster    : "Lobster", sans-serif;
+$lato       : "Lato", sans-serif;
+
+//----Weight
+$light      : 300;
+$regular    : 400;
+$medium     : 500;
+$semiBold   : 600;
+$extraBold  : 800;
+$bold       : bold;
+
+//Colors
+$white      : #ffffff;
+$softwhite  : #f6f7fb;
+$dark       : #484848;
+$grey       : #42495b;
+$lightgrey  : #7a839e;
+$softgrey   : #999999;
+$purple     : #7e76f9;
+$purpleOpacity : rgba(#7e76f9, 0.15);
+$blue       : #1000ff;
+$darkblue   : #1a129f;
+$pink       : #f6f7fb;
+$btncolor   : linear-gradient(to left, #6156f9 12%, #1a129f 50%);
+$svgColor   : saturate(0%) brightness(1000%);
+
+//border-radius
+$radius : 26px;
+
+//Box shadow
+$shadowOne : 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+$largeShadow : 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+$lastShadow : 10px 10px 20px 0px rgba(126, 118, 249, 0.1);
+
+//Images Size
+$footerSocial : 23.3px;
+$footerSocialTwitter : 27px;
+$footerContact : 15.9px;

@@ -1,0 +1,55 @@
+header{       
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+    margin-left: 15%;
+
+    nav{
+
+        .marketing{
+            display: flex;
+            padding-top: 1%;
+        }
+    }
+
+    .media{
+        position: relative;
+
+        .socialPicto{
+            position: absolute;
+            left: -101.5px;
+            width: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10.5%; 
+
+            a{
+                img{
+                    margin-bottom: 400%;
+
+                }
+            }
+
+            hr{
+                width: 3px;
+                height: 29px;
+                background: $btncolor;
+            }
+        }
+
+        .textLeft{
+            margin-top: 145px;
+            .mainbtn{
+                margin-top: 21px;
+            }
+            .imagePhone{
+                position: absolute;
+                top: -40%;
+                right: 7.6%;
+            }
+        }
+    }
+}
+

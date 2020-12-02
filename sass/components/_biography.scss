@@ -1,0 +1,27 @@
+main{
+    .whoWeAre{
+        background-image: url(../img/background-we-are.png);
+        background-repeat: no-repeat;
+        position: relative;
+        width: 49%;
+        height: 70vh;
+        margin-left: 51%;
+        padding-left: 5%;
+        padding-top: 10vh;
+
+        img{
+            position: absolute;
+            left: -90%;
+            top: 0;
+        }
+
+        .articleWho{
+            width: 75%;
+            height: 55vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+        }
+    }
+}

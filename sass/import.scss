@@ -1,0 +1,26 @@
+// Variables
+@import "helpers/variables";
+// Importations
+@import "components/reset";
+
+// Header
+@import "components/header";
+// Main
+@import "components/biography";
+@import "components/services";
+@import "components/pricing";
+// Footer
+@import "components/footer";
+
+// Btn
+@import "components/btn";
+// Font
+@import "components/font";
+// Ul li
+@import "components/ul";
+
+// Responsive
+@import "components/media1200";
+@import "components/font_media1200";
+@import "components/media500";
+@import "components/font_media500";

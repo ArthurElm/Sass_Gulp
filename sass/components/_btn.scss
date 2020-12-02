@@ -1,0 +1,69 @@
+.mouseImage{
+    border-radius: 100%;
+    border: 1px ridge $white;
+    padding: 19.6px 26.4px 19.2px 26.2px;
+    box-shadow: $shadowOne;
+    position: absolute;
+    left: 50%;
+    bottom: 15vh;
+}
+
+.mainbtn{
+    background: $btncolor;
+    color: $white;
+    padding: 13px 40px;
+    border-radius: 25px;
+    border: none;
+    font-family: $poppins;
+    font-size: $text;
+    font-weight: $medium;
+}
+
+.secondbtn{
+    @extend .mainbtn;
+    padding: 16px 52.2px 15.4px 52px;
+    font-family: $poppins;
+    font-size: $smallFontSize;
+    font-weight: $semiBold;
+    width: 32%;
+}
+
+.thirdbtn{
+    @extend .secondbtn;
+    padding: 6px 0;
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.fourthbtn{
+    @extend .mainbtn;
+    background: $white;
+    color: $grey;
+    border : solid 1px $blue;
+}
+
+@media (max-width: 1200px){
+
+    .mouseImage{
+        position: absolute;
+        left: 45%;
+        bottom: 5vh;
+    }
+}
+
+@media (max-width: 500px){
+
+    .mouseImage{
+        left: 40%;
+        bottom: 1vh;
+    }
+
+    .secondbtn{
+        width: 70%;
+    }
+
+    .thirdbtn{
+        align-self: center;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,64 @@
+@media (max-width: 1200px){
+
+    //------HEADER
+
+    header{
+        .media{
+            .textLeft{
+                p:nth-child(3n){
+                    text-align: center;
+                    color: $purple;
+                    font-weight: $semiBold;
+                }
+            }
+        }
+    }
+
+    //-----MAIN
+    
+    main{
+
+        //--------WHO WE ARE
+        .whoWeAre{
+    
+            .articleWho{
+
+                p:nth-child(2n),
+                p:nth-child(3n){
+                    text-align: center;
+                    font-weight: $medium;
+                    color: $dark;
+                }
+            }
+        }
+
+        //--------SERVICES
+        .services{
+
+            p{
+                margin-left: 0;
+            }
+
+            h3{
+                margin-left: 0;
+            }
+        }
+
+        //------PRICING
+        .pricing{
+            p{
+                margin-top: 10vh;
+            }
+        
+            .packages{
+                
+                .package{
+    
+                    p:nth-child(2n){
+                        margin: 0 5% -20% 5%;
+                    }
+                }
+            }
+        }
+    }
+}

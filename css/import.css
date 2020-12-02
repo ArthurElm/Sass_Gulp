@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+
+header {
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100vh;
+  margin-left: 15%; }
+  header nav .marketing {
+    display: flex;
+    padding-top: 1%; }
+  header .media {
+    position: relative; }
+    header .media .socialPicto {
+      position: absolute;
+      left: -101.5px;
+      width: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10.5%; }
+      header .media .socialPicto a img {
+        margin-bottom: 400%; }
+      header .media .socialPicto hr {
+        width: 3px;
+        height: 29px;
+        background: linear-gradient(to left, #6156f9 12%, #1a129f 50%); }
+    header .media .textLeft {
+      margin-top: 145px; }
+      header .media .textLeft .mainbtn, header .media .textLeft .secondbtn, header .media .textLeft .thirdbtn, header .media .textLeft .fourthbtn {
+        margin-top: 21px; }
+      header .media .textLeft .imagePhone {
+        position: absolute;
+        top: -40%;
+        right: 7.6%; }
+
+main .whoWeAre {
+  background-image: url(../img/background-we-are.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 49%;
+  height: 70vh;
+  margin-left: 51%;
+  padding-left: 5%;
+  padding-top: 10vh; }
+  main .whoWeAre img {
+    position: absolute;
+    left: -90%;
+    top: 0; }
+  main .whoWeAre .articleWho {
+    width: 75%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+
+main .services {
+  height: 130vh;
+  margin-top: 15vh; }
+  main .services .blocks {
+    background-image: url(../img/background-service.png);
+    background-repeat: no-repeat;
+    margin: 5vh 0 0 5%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap; }
+    main .services .blocks .block {
+      width: 22.9%;
+      height: 410.2px;
+      margin: 0 8% 10vh 0;
+      background-color: #ffffff;
+      box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+      border-radius: 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center; }
+      main .services .blocks .block img {
+        width: 24.6%; }
+
+main .pricing {
+  background-color: rgba(126, 118, 249, 0.15);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main .pricing .packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    padding-left: 10%;
+    padding-right: 10%; }
+    main .pricing .packages .package:nth-child(2n) {
+      box-shadow: 10px 10px 20px 0px rgba(126, 118, 249, 0.1); }
+    main .pricing .packages .package {
+      width: 25%;
+      height: 463px;
+      margin-bottom: 5vh;
+      background-color: #ffffff;
+      border-radius: 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center; }
+
+footer {
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh; }
+  footer .newsletter {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 0 28% 0; }
+    footer .newsletter .send {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      footer .newsletter .send input {
+        width: 70%;
+        height: 5vh;
+        padding-left: 4%;
+        background-color: #f6f7fb;
+        border: none; }
+  footer .bottom {
+    height: 25vh;
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1vh; }
+    footer .bottom .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center; }
+      footer .bottom .logo .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        footer .bottom .logo .social a:first-child,
+        footer .bottom .logo .social a:nth-child(2) {
+          transform: rotate(-90deg); }
+        footer .bottom .logo .social a img {
+          filter: saturate(0%) brightness(1000%);
+          width: 23.3px; }
+        footer .bottom .logo .social a:nth-child(3) img {
+          width: 27px; }
+    footer .bottom .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+    footer .bottom .contact {
+      height: 25vh;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+
+.mouseImage {
+  border-radius: 100%;
+  border: 1px ridge #ffffff;
+  padding: 19.6px 26.4px 19.2px 26.2px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+  position: absolute;
+  left: 50%;
+  bottom: 15vh; }
+
+.mainbtn, .secondbtn, .thirdbtn, .fourthbtn {
+  background: linear-gradient(to left, #6156f9 12%, #1a129f 50%);
+  color: #ffffff;
+  padding: 13px 40px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500; }
+
+.secondbtn, .thirdbtn {
+  padding: 16px 52.2px 15.4px 52px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 32%; }
+
+.thirdbtn {
+  padding: 6px 0;
+  align-self: flex-end;
+  margin-right: 10%; }
+
+.fourthbtn {
+  background: #ffffff;
+  color: #42495b;
+  border: solid 1px #1000ff; }
+
+@media (max-width: 1200px) {
+  .mouseImage {
+    position: absolute;
+    left: 45%;
+    bottom: 5vh; } }
+
+@media (max-width: 500px) {
+  .mouseImage {
+    left: 40%;
+    bottom: 1vh; }
+  .secondbtn, .thirdbtn {
+    width: 70%; }
+  .thirdbtn {
+    align-self: center;
+    margin-right: 0; } }
+
+section p:first-child {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  color: #7e76f9; }
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #42495b; }
+
+header nav .marketing h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 18px;
+  color: #484848; }
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff; }
+
+header .media .textLeft h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #42495b;
+  font-weight: 400; }
+
+header .media .textLeft h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 74px;
+  color: #42495b;
+  font-weight: bold;
+  margin-top: -20px; }
+
+header .media .textLeft p {
+  width: 341px; }
+
+header .media .textLeft p:nth-child(3n) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #7a839e; }
+
+main .whoWeAre .articleWho p:first-child {
+  font-size: 20px; }
+
+main .whoWeAre .articleWho h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #42495b; }
+
+main .whoWeAre .articleWho p:nth-child(2n),
+main .whoWeAre .articleWho p:nth-child(3n) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #7a839e; }
+
+main .services p {
+  font-size: 25px;
+  margin-left: 15%; }
+
+main .services h3 {
+  margin-left: 15%; }
+
+main .services .blocks .block p:nth-child(2n) {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #42495b;
+  margin-right: 8%; }
+
+main .services .blocks .block p:nth-child(3n) {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #42495b;
+  margin-left: 10%;
+  margin-right: 5%; }
+
+main .pricing .packages .package h5 {
+  font-family: "Lobster", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #42495b;
+  margin-top: 10%; }
+
+main .pricing .packages .package p:nth-child(2n) {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #7a839e;
+  text-align: center;
+  margin: 0 5% 0 5%; }
+
+main .pricing .packages .package p:nth-child(3n) {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1000ff; }
+
+footer .newsletter p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #42495b; }
+
+footer .newsletter .send input {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999; }
+
+footer .bottom .logo p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff; }
+
+footer .bottom .logo p:nth-child(2n) {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+  color: #ffffff; }
+
+footer .bottom .links p,
+footer .bottom .hours p,
+footer .bottom .contact p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff; }
+
+footer .bottom .links ul li a,
+footer .bottom .hours ul li a,
+footer .bottom .contact ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none; }
+
+footer .bottom .hours ul li a p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff; }
+
+header nav ul {
+  display: flex;
+  margin-left: 45%;
+  width: 352px;
+  justify-content: space-around;
+  margin-top: 2.5%; }
+  header nav ul li {
+    list-style-type: none; }
+
+footer .bottom .links {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  footer .bottom .links ul {
+    height: 20vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+
+footer .bottom .hours {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  footer .bottom .hours ul {
+    height: 20vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .bottom .hours ul li a {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+
+footer .bottom .contact ul {
+  height: 15vh;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  footer .bottom .contact ul li:last-child {
+    margin-top: 3vh; }
+  footer .bottom .contact ul li a img {
+    width: 15.9px;
+    margin-right: 5%; }
+
+@media (max-width: 1200px) {
+  header nav ul {
+    margin-left: 5%; }
+    header nav ul li a {
+      color: #7e76f9; }
+  footer .bottom .links {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .bottom .links ul {
+      height: 20vh;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+  footer .bottom .hours {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .bottom .hours ul {
+      height: 20vh;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      footer .bottom .hours ul li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+  footer .bottom .contact {
+    height: 25vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .bottom .contact ul {
+      height: 15vh;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      footer .bottom .contact ul li:last-child {
+        margin-top: 3vh; }
+      footer .bottom .contact ul li a img {
+        width: 15.9px;
+        margin-right: 5%; } }
+
+@media (max-width: 1200px) {
+  header {
+    background-image: url(../img/phone_background3.png);
+    background-position: center;
+    padding-left: 15%;
+    margin-left: 0; }
+    header nav .marketing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: -15%; }
+    header .media .socialPicto {
+      position: absolute;
+      left: -10%;
+      width: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10.5%; }
+      header .media .socialPicto a img {
+        margin-bottom: 400%; }
+      header .media .socialPicto hr {
+        width: 3px;
+        height: 29px;
+        background: linear-gradient(to left, #6156f9 12%, #1a129f 50%); }
+    header .media .textLeft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: -15%; }
+      header .media .textLeft .imagePhone {
+        display: none; }
+  main .whoWeAre {
+    background-image: url(../img/we-are4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    main .whoWeAre img {
+      display: none; }
+    main .whoWeAre .articleWho {
+      width: 70%;
+      height: 100%;
+      margin-left: 15%;
+      align-items: center; }
+  main .services {
+    height: 170vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    main .services .blocks {
+      margin-left: 0;
+      padding-left: 5%; }
+      main .services .blocks .block {
+        width: 45%;
+        margin-right: 5%; }
+  main .pricing {
+    height: 180vh;
+    justify-content: space-around; }
+    main .pricing .packages .package {
+      width: 80%;
+      height: 40vh; }
+  footer {
+    background-image: none;
+    height: 200vh; }
+    footer .newsletter {
+      height: 20%;
+      margin: 10% 0 22% 0; }
+      footer .newsletter .send {
+        width: 70%; }
+        footer .newsletter .send input {
+          width: 70%; }
+    footer .bottom {
+      height: 150vh;
+      display: block;
+      margin-bottom: 0;
+      background-color: #1a129f;
+      padding-top: 10vh; }
+      footer .bottom .logo {
+        width: 60%;
+        height: 23vh;
+        margin: 0 0 5vh 20%; }
+      footer .bottom .links,
+      footer .bottom .hours,
+      footer .bottom .contact {
+        width: 50%;
+        height: 30vh;
+        margin: 0 0 5vh 25%;
+        text-align: center; } }
+
+@media (max-width: 1200px) {
+  header .media .textLeft p:nth-child(3n) {
+    text-align: center;
+    color: #7e76f9;
+    font-weight: 600; }
+  main .whoWeAre .articleWho p:nth-child(2n),
+  main .whoWeAre .articleWho p:nth-child(3n) {
+    text-align: center;
+    font-weight: 500;
+    color: #484848; }
+  main .services p {
+    margin-left: 0; }
+  main .services h3 {
+    margin-left: 0; }
+  main .pricing p {
+    margin-top: 10vh; }
+  main .pricing .packages .package p:nth-child(2n) {
+    margin: 0 5% -20% 5%; } }
+
+@media (max-width: 500px) {
+  header {
+    background-image: url(../img/phone_background4.png); }
+    header .media .socialPicto {
+      display: none; }
+    header .media .textLeft {
+      margin: 5vh 0 0 -15%; }
+  main .whoWeAre {
+    background-size: 40vh;
+    margin-top: 10vh; }
+  main .services {
+    height: 400vh;
+    margin-top: 30vh; }
+    main .services .blocks {
+      margin-left: 5%;
+      padding-left: 5%; }
+      main .services .blocks .block {
+        width: 90%;
+        align-content: center; }
+  main .pricing {
+    height: 220vh;
+    justify-content: space-around; }
+    main .pricing .packages .package {
+      width: 90%;
+      height: 55vh; }
+  footer .newsletter .send {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 20vh; }
+    footer .newsletter .send input {
+      width: 100%; }
+  footer .bottom .logo {
+    width: 80%;
+    margin: 0 0 5vh 10%; }
+  footer .bottom .links,
+  footer .bottom .hours,
+  footer .bottom .contact {
+    width: 70%;
+    height: 30vh;
+    margin: 0 0 5vh 15%;
+    text-align: center; } }
+
+@media (max-width: 500px) {
+  section p:first-child {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    color: #7e76f9; }
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #42495b; }
+  header {
+    background-size: 40vh; }
+    header .media .textLeft {
+      height: 50vh;
+      display: flex;
+      justify-content: space-around;
+      text-align: center; }
+      header .media .textLeft h3 {
+        font-size: 45px; }
+      header .media .textLeft h1 {
+        font-size: 60px; }
+      header .media .textLeft p {
+        width: 341px; }
+      header .media .textLeft p:nth-child(3n) {
+        font-size: 16px; }
+  main .whoWeAre {
+    text-align: center; }
+    main .whoWeAre .articleWho h3 {
+      font-size: 45px; }
+  main .services {
+    text-align: center; }
+    main .services p {
+      font-size: 22px;
+      margin-left: 0; }
+    main .services h3 {
+      margin-left: 0; }
+    main .services .blocks .block p:nth-child(2n) {
+      font-size: 18px;
+      margin: 0 2vh 0 2vh; }
+    main .services .blocks .block p:nth-child(3n) {
+      font-size: 14px;
+      margin: 0 2vh 0 2vh; }
+  main .pricing .packages .package h5 {
+    font-size: 28px;
+    margin-top: 10%; }
+  main .pricing .packages .package p:nth-child(2n) {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 5% 0 5%; }
+  main .pricing .packages .package p:nth-child(3n) {
+    font-size: 30px;
+    margin: -5vh; }
+  footer .newsletter p:nth-child(2) {
+    font-size: 32px;
+    text-align: center; }
+  footer .newsletter .send input {
+    font-size: 12px; }
+  footer .bottom .logo p:first-child {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffffff; }
+  footer .bottom .logo p:nth-child(2n) {
+    font-family: "Poppins", sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+    color: #ffffff; }
+  footer .bottom .links p,
+  footer .bottom .hours p,
+  footer .bottom .contact p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff; }
+  footer .bottom .links ul li a,
+  footer .bottom .hours ul li a,
+  footer .bottom .contact ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none; }
+  footer .bottom .hours ul li a p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff; } }

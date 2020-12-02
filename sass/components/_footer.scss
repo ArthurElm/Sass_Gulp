@@ -1,0 +1,88 @@
+footer{
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+
+    .newsletter{
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10% 0 28% 0;
+
+        .send{
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            input{
+                width: 70%;
+                height: 5vh;
+                padding-left: 4%;
+                background-color: $pink;
+                border: none;
+            }
+        }
+    }
+
+    .bottom{
+        height: 25vh;
+        padding: 0 10% 0 10%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1vh;
+
+        .logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+
+            .social{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                a:first-child,
+                a:nth-child(2){
+                    transform: rotate(-90deg);
+                
+                }
+
+                a{
+                    img{
+                        filter: $svgColor;
+                        width: $footerSocial;
+                    }
+                }
+
+                a:nth-child(3){
+                    img{
+                        width: $footerSocialTwitter;
+                    }               
+                }
+            }
+        }
+
+            
+        .links{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           }
+
+        .contact{
+            height: 25vh;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
+    }
+}

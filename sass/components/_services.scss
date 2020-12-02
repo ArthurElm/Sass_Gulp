@@ -1,0 +1,33 @@
+main{
+    .services{
+        height: 130vh;
+        margin-top: 15vh;
+
+        .blocks{
+            background-image: url(../img/background-service.png);
+            background-repeat: no-repeat;
+            margin: 5vh 0 0 5%;
+            padding-left: 10%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .block{
+                width: 22.9%;
+                height: 410.2px;
+                margin: 0 8% 10vh 0;
+                background-color: $white;
+                box-shadow: $largeShadow;
+                border-radius: $radius;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                justify-content: space-around;
+                align-items: center;
+
+                img{
+                    width: 24.6%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,254 @@
+//-------All
+
+section{
+    p:first-child{
+        font-family: $lobster;
+        font-weight: $regular;
+        color: $purple;
+    }
+}
+
+h3{
+    font-family: $poppins;
+    font-weight: $semiBold;
+    font-size: $h3;
+    color: $grey,
+}
+
+//-------HEADER
+
+header{
+    nav{
+        .marketing{
+            h4{
+                font-family: $poppins;
+                font-size: $h4;
+                font-weight: $bold;
+                margin-top: 40px;
+                margin-left: 18px;
+                color: $dark;
+            }
+        }
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    font-family: $poppins;
+                    font-size: $text;
+                    font-weight: $medium;
+                    color: $white;
+                }
+            }
+        }
+    }
+    
+    .media{
+        .textLeft{
+            h3{
+                font-family: $poppins;
+                font-size: $h3;
+                color: $grey;
+                font-weight: $regular;
+            }
+            h1{
+                font-family: $poppins;
+                font-size: 74px;
+                color: $grey;
+                font-weight: $bold;
+                margin-top: -20px;
+            }
+            p{
+                width: 341px;
+            }
+            p:nth-child(3n){
+                font-family: $poppins;
+                font-weight: $light;
+                font-size: $text;
+                color: $lightgrey;
+            }
+        }
+    }
+}
+
+//------MAIN
+
+main{
+
+    //--------WHO WE ARE
+    .whoWeAre{
+
+        .articleWho{
+            
+            p:first-child{
+                font-size: $mini-titre;
+            }
+            h3{
+                font-family: $poppins;
+                font-weight: $semiBold;
+                font-size: $h3;
+                color: $grey;
+            }
+            p:nth-child(2n),
+            p:nth-child(3n){
+                font-family: $poppins;
+                font-weight: $light;
+                font-size: $text;
+                color: $lightgrey;
+            }
+        }
+    }
+
+    //--------SERVICES
+    .services{
+
+        p{
+            font-size: $h6;
+            margin-left: 15%;
+        }
+
+        h3{
+            margin-left: 15%;
+        }
+
+        .blocks{
+
+            .block{
+
+                p:nth-child(2n){
+                    font-family: $poppins;
+                    font-size: $titre;
+                    font-weight: $semiBold;
+                    color: $grey;
+                    margin-right: 8%;
+                }
+
+                p:nth-child(3n){
+                    font-family: $lato;
+                    font-size: $sous-titre;
+                    color: $grey;
+                    margin-left: 10%;
+                    margin-right: 5%;
+                }
+            }
+        }
+    }
+
+    //--------PRICING
+    .pricing{
+        
+        .packages{
+            
+            .package{
+                
+                h5{
+                    font-family: $lobster;
+                    font-size: $h5;
+                    font-weight: $regular;
+                    color: $grey;
+                    margin-top: 10%
+                }
+
+                p:nth-child(2n){
+                    font-family: $poppins;
+                    font-size: $text;
+                    font-weight: $light;
+                    color: $lightgrey;
+                    text-align: center;
+                    margin: 0 5% 0 5%;
+                }
+                
+                p:nth-child(3n){
+                    font-family: $poppins;
+                    font-size: $prix;
+                    font-weight: $semiBold;
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
+
+
+
+//-------FOOTER
+
+footer{
+
+    .newsletter{
+        
+        p:nth-child(2){
+            font-family: $poppins;
+            font-size: $special;
+            font-weight: $semiBold;
+            color: $grey;
+        }
+
+        .send{
+            input{
+                font-family: $poppins;
+                font-size: $smallFontSize;
+                font-weight: $regular;
+                color: $softgrey;
+            }
+        }
+    }
+
+    .bottom{
+
+        .logo{
+
+            p:first-child{
+                font-family: $poppins;
+                font-size: $h3;
+                font-weight: $extraBold;
+                color: $white;
+            }
+
+            p:nth-child(2n){
+                font-family: $poppins;
+                font-size: $stay;
+                font-weight: $medium;
+                color: $white;
+            }
+        }
+
+        .links,
+        .hours,
+        .contact{
+
+            p{
+                font-family: $poppins;
+                font-size: $mini-titre;
+                font-weight: $medium;
+                color: $white;
+            }
+            ul{
+                li{
+                    a{
+                        font-family: $poppins;
+                        font-size: $text;
+                        font-weight: $regular;
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .hours{
+            ul{
+                li{
+                    a{
+                        p{
+                            font-family: $poppins;
+                            font-size: $text;
+                            font-weight: $regular;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
